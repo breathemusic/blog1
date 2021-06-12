@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+     padding-top: 800px;
+    margin: 0;
+}
+#Img1{
+    margin-top: 200px;
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#Welcome{
+    position: absolute;
+    height: 800px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(#ff0066 0%,#4dffff 100%);
+}
+#bio{
+    font-size:20px;
+}
+#h1{
+    font-size: 18px;
+}
+.Menu{
+    list-style: none;
+    position: fixed;
+    top:0px;
+    margin-top: 0px;
+   background-color: white;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+}
+.links {
+    display: inline;
+    color:darkblue;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: cursive;
+     font-size: 20px;
+}
+.links:hover{
+    background-color: aqua;
+    font-size: 25px; 
+}
+
